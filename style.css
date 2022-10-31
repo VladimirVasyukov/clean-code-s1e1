@@ -34,7 +34,9 @@
   margin: 0 auto 0;
 }
 
-.task-name-input, .task-name-label, .task-name-add {
+.task-name-input,
+.task-name-label,
+.task-name-add {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -44,20 +46,28 @@
   display: flex;
 }
 
-.tasks-list, .completed-tasks {
+.tasks-list,
+.completed-tasks {
   margin: 0;
   padding: 0px;
 }
 
-.main-title, .incomplete-tasks-title, .completed-tasks-title {
+.main-title,
+.incomplete-tasks-title,
+.completed-tasks-title {
   list-style: none;
 }
 
-.task-name-add, .edit-btn, .delete-btn, .add-btn {
+.task-name-add,
+.edit-btn,
+.delete-btn,
+.add-btn {
   outline: none;
 }
 
-.edit-btn, .delete-btn, .add-btn {
+.edit-btn,
+.delete-btn,
+.add-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +77,9 @@
   cursor: pointer;
 }
 
-.edit-btn:hover, .delete-btn:hover, .add-btn:hover {
+.edit-btn:hover,
+.delete-btn:hover,
+.add-btn:hover {
   color: #3a3a3a;
 }
 
@@ -82,7 +94,8 @@
   text-transform: uppercase;
 }
 
-.task-name-input, .task-name-add {
+.task-name-input,
+.task-name-add {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -95,7 +108,8 @@
   color: #888;
 }
 
-.task-name-input:focus, .task-name-add:focus {
+.task-name-input:focus,
+.task-name-add:focus {
   color: #333;
 }
   
@@ -119,7 +133,9 @@
   align-items: center;
 }
 
-.task-name-label, .task-name-input, .edit-btn {
+.task-name-label,
+.task-name-input,
+.edit-btn {
   vertical-align: middle;
 }
   
