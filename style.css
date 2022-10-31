@@ -4,47 +4,59 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .info-content {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .info-content-image {
   width: 100%;
 }
+
 .info-content .more-info {
   font-family: fantasy, cursive;
 }
-
+  
 @media (max-width:768px) {
-  .info-content { text-align: center;
-  }
-}
 
+  .info-content {
+    text-align: center;
+  }
+
+}
+  
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-name-input, .task-name-label, .task-name-add {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .new-task-wrapper {
   display: flex;
 }
+
 .tasks-list, .completed-tasks {
   margin:0;
   padding: 0px;
 }
+
 .main-title, .incomplete-tasks-title, .completed-tasks-title {
   list-style:none;
 }
+
 .task-name-add, .edit-btn, .delete-btn, .add-btn {
   outline:none;
 }
+
 .edit-btn, .delete-btn, .add-btn {
   background: none;
   border: 0px;
@@ -54,10 +66,12 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .edit-btn:hover, .delete-btn:hover, .add-btn:hover {
   color: #3a3a3a;
 }
-/* Heading */
+
+  /* Heading */
 .title {
   color: #333;
   font-weight: 700;
@@ -67,6 +81,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-name-input, .task-name-add {
   margin: 0;
   font-size: 18px;
@@ -79,70 +94,76 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-name-input:focus, .task-name-add:focus {
   color: #333;
 }
-
-/* New Task */
+  
+  /* New Task */
 .main-title {
   display: block;
   margin: 0 0 20px;
 }
+
 .task-name-add {
   width: 318px;
 }
-
-/* Task list */
+  
+  /* Task list */
 .item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .task-name-label, .task-name-input, .edit-btn {
   vertical-align: middle;
 }
-
+  
 .tasks-checkbox {
   margin: 0 10px;
 }
+
 .task-name-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-name-input {
   width: 226px
 }
+
 .remove-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .remove-image:hover {
   transform: rotateZ(0);
 }
-
-/* Completed */
+  
+  /* Completed */
 .completed-tasks .task-name-label {
   text-decoration: line-through;
   color: #888;
 }
-
-/* Edit Task */
+  
+  /* Edit Task */
 .task-name-input {
   display:none
 }
-
+  
 .edit-mode .task-name-input {
   display:inline-block;
   width:224px
 }
-
+  
 .edit-mode .task-name-label {
   display:none;
 }
